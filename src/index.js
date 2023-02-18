@@ -1,5 +1,6 @@
 import React, { StrictMode } from 'react';
 import ReactDOM, { createRoot } from 'react-dom/client';
+import './style.css';
 
 function WarningBanner(props) {
   if (!props.warn) {
